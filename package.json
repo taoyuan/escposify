@@ -24,6 +24,7 @@
   "repository": "taoyuan/escposify",
   "dependencies": {
     "hexy": "^0.2.7",
+    "iconv-lite": "^0.4.13",
     "lodash": "^3.10.1",
     "mutable-buffer": "^1.0.1",
     "usb": "^1.0.6"
