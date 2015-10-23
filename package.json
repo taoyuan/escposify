@@ -1,0 +1,49 @@
+{
+  "name": "escposify",
+  "version": "0.0.0",
+  "description": "ESC/POS Printer driver for node.js",
+  "homepage": "https://github.com/taoyuan/escposify",
+  "author": {
+    "name": "taoyuan",
+    "email": "towyuan@outlook.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "esc",
+    "pos",
+    "node",
+    "driver",
+    "thermal",
+    "print",
+    "printer",
+    "usb",
+    "file",
+    "console"
+  ],
+  "repository": "taoyuan/escposify",
+  "dependencies": {
+    "hexy": "^0.2.7",
+    "lodash": "^3.10.1",
+    "mutable-buffer": "^1.0.1",
+    "usb": "^1.0.6",
+    "usbio": "taoyuan/usbio"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
