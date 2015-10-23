@@ -8,9 +8,6 @@
     "email": "towyuan@outlook.com",
     "url": ""
   },
-  "files": [
-    "lib"
-  ],
   "main": "index.js",
   "keywords": [
     "esc",
@@ -41,7 +38,6 @@
     "gulp-nsp": "^0.4.5"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
     "test": "gulp"
   },
   "license": "MIT"
