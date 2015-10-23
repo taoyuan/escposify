@@ -29,8 +29,7 @@
     "hexy": "^0.2.7",
     "lodash": "^3.10.1",
     "mutable-buffer": "^1.0.1",
-    "usb": "^1.0.6",
-    "usbio": "taoyuan/usbio"
+    "usb": "^1.0.6"
   },
   "devDependencies": {
     "gulp": "^3.6.0",
