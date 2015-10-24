@@ -8,7 +8,7 @@ printer
   .font('C')
   .align('ct')
   .style('bu')
-  .size(1, 1)
+  .size()
   .text('The quick brown fox jumps over the lazy dog')
   .barcode('12345678', 'EAN8')
   .feed()
