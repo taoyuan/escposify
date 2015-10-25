@@ -23,6 +23,8 @@
   ],
   "repository": "taoyuan/escposify",
   "dependencies": {
+    "async": "^1.4.2",
+    "get-pixels": "^3.2.3",
     "hexy": "^0.2.7",
     "iconv-lite": "^0.4.13",
     "lodash": "^3.10.1",
