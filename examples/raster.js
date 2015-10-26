@@ -13,23 +13,8 @@ getPixels('./resources/tux.png', function (err, pixels) {
   printer
     .align('ct')
     .raster(escpos.image(pixels))
-    .feed(6)
-    .flush();
-
-  printer
-    .align('ct')
     .raster(escpos.image(pixels), 'dw')
-    .feed(6)
-    .flush();
-
-  printer
-    .align('ct')
     .raster(escpos.image(pixels), 'dh')
-    .feed(6)
-    .flush();
-
-  printer
-    .align('ct')
     .raster(escpos.image(pixels), 'dwdh')
     .feed(6)
     .flush();
