@@ -11,11 +11,7 @@ $ npm install --save escposify
 
 ## Usage
 
-```js
-var escposify = require('escposify');
-
-escposify('Rainbow');
-```
+Coming Soon!
 
 ## License
 
