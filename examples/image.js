@@ -1,3 +1,5 @@
+'use strict';
+
 var getPixels = require('get-pixels');
 var escpos = require('../');
 

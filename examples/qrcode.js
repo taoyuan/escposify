@@ -1,3 +1,5 @@
+'use strict';
+
 var iconv = require('iconv-lite');
 var escpos = require('../');
 

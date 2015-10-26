@@ -1,3 +1,5 @@
+'use strict';
+
 var escpos = require('../');
 
 var device = new escpos.USB(0x0483, 0x5720);
