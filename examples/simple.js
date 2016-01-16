@@ -10,19 +10,26 @@ var printer = new escpos.Printer(device);
 
 device.open(function () {
   printer
-  //.font('C')
-  //.align('ct')
-  //.style('bu')
-  //.size()
-  //  .text('The quick brown fox jumps over the lazy dog')
+    .font('C')
+    .align('ct')
+    .style('bu')
+    .size()
+    .text('The quick brown fox jumps over the lazy dog')
     .text('敏捷的棕色狐狸跳过懒狗')
-    //.barcode('12345678', 'EAN8')
-    //.feed()
-    //.cut()
+    .barcode('12345678', 'EAN8')
+    .feed()
+    .cut()
     .flush();
 
-  setTimeout(function () {
-    device.close();
-  }, 1000);
 });
 
+process.on('SIGINT', exit());
+process.on('SIGTERM', exit());
+
+function exit() {
+  return function () {
+    console.log('Stopping and halting ...');
+    device.close();
+    setTimeout(process.exit, 1000);
+  }
+}
