@@ -22,6 +22,9 @@
     "console"
   ],
   "repository": "taoyuan/escposify",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "async": "^1.5.2",
     "get-pixels": "taoyuan/get-pixels",
