@@ -3,8 +3,8 @@
 var iconv = require('iconv-lite');
 var escpos = require('../');
 
-//var device = new escpos.USB(0x0483, 0x5720);
 var device = new escpos.Console();
+//var device = new escpos.USB();
 var printer = new escpos.Printer(device);
 
 var code = '我思故我在';
