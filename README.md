@@ -1,5 +1,5 @@
 # escposify [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> ESC/POS Printer driver for node.js
+> ESC/POS Printer driver for node.js. DEPRECATED and replaced by http://github.com/taoyuan/npos.
 
 
 ## Install
