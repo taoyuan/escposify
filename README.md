@@ -1,4 +1,7 @@
 # escposify [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/escposify.svg)](https://greenkeeper.io/)
+
 > ESC/POS Printer driver for node.js. DEPRECATED and replaced by http://github.com/taoyuan/npos.
 
 
